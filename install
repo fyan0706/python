@@ -1,0 +1,11 @@
+1. 下载: wget https://www.python.org/ftp/python/3.8.2/Python-3.8.2.tgz
+    tar zxvf Python-3.8.2.tgz 
+    Python-3.8.2/
+2. mkdir /usr/local/python3
+3. ./configure --prefix=/usr/local/python3
+    make && make install
+4. ln -s /usr/local/python3/bin/python3.8 /usr/bin/python3
+    ln -s /usr/local/python3/bin/pip3.8 /usr/bin/pip3
+5. try:
+    python3 
+    pip3 --version
